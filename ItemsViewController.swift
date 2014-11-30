@@ -65,7 +65,7 @@ class ItemsViewController: UITableViewController {
     override init(style: UITableViewStyle) {
         println("ItemsViewController style")
         super.init(style: style)
-        self.navigationItem.title = "HomePwner"
+        self.navigationItem.title = "Anthonys List"
     
         // SEL in swift are strings, if the selector takes an argument add ':' at the end
         var bbi = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: "addNewItem:")

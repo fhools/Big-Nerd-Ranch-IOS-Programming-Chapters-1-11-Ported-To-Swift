@@ -8,8 +8,9 @@
 
 import Foundation
 
-class Item : Equatable{
+class Item : Equatable {
     var name: String?
+    var itemKey = NSUUID().UUIDString
     init(name aName:String) {
         name = aName
     }
